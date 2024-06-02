@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:animated_border/animated_border.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
